@@ -41,28 +41,56 @@ export const siteConfig = {
   ],
   experience: [
     {
-      company: "IIT Bombay - BETIC Labs",
-      title: "Embedded Engineer",
-      dateRange: "June 2023 - Present",
+      company: "IIT Bombay - BETIC Project",
+      title: "Embedded Systems Engineer & Full Stack Developer",
+      dateRange: "April 2025 - Present",
       bullets: [
-        "Contributed to various medical and embedded projects, taking them from concept design to functional prototype",
-        "Applied STM32, Arduino, NRF, Bluetooth, RTOS, and various sensor technologies to build prototypes with real-world clinical and IoT applications.",
-        "Collaborated with clients and cross-functional teams (mechanical, industrial, and software) to define timelines and workflow architecture",
+        "Led 3 healthtech devices from concept to working prototypes, and supported 4 more owning software and firmware.",
+        "Built VeraShield smart spray scheduler in 10 weeks, owning nRF52832 BLE firmware (SPI, ADC VBAT/slider, PWM motor control, I2C RTC + EEPROM for schedules and user stats) and BLE remote control via a Capacitor BLE app.",
+        "Ketone Breath Analyzer built using Arduino, TGS1820 acetone sensor, and SSD1306 OLED UI got funding from TIH.",
+        "Built Arduino stepper-motor control for SmearBot and IVD strip reader (DRV8834, NEMA17, optical-switch homing).",
+        "Pushed the ScalpCooling device to internal-testing, fixed alarm sync, UART and compressor control in STM32 code.",
+        "Built a Raspberry Pi Kivy touchscreen UI for Tracheostomy-Device-UI with demo vitals and buzzer alerts (2 weeks).",
+        "Delivered website enhancements, led software support/debugging, and server setup, management and administration.",
+        "Participated in DRM, MRM and internal audits to comply with medical device standards ISO 13485 and ISO 9001.",
+      ],
+    },
+    {
+      company: "IIT Bombay - BETIC Project",
+      title: "Embedded Systems Engineer & Full Stack Developer",
+      dateRange: "April 2025 - Present",
+      bullets: [
+        "Led 3 healthtech devices from concept to working prototypes, and supported 4 more owning software and firmware.",
+        "Built VeraShield smart spray scheduler in 10 weeks, owning nRF52832 BLE firmware (SPI, ADC VBAT/slider, PWM motor control, I2C RTC + EEPROM for schedules and user stats) and BLE remote control via a Capacitor BLE app.",
+        "Ketone Breath Analyzer built using Arduino, TGS1820 acetone sensor, and SSD1306 OLED UI got funding from TIH.",
+        "Built Arduino stepper-motor control for SmearBot and IVD strip reader (DRV8834, NEMA17, optical-switch homing).",
+        "Pushed the ScalpCooling device to internal-testing, fixed alarm sync, UART and compressor control in STM32 code.",
+        "Built a Raspberry Pi Kivy touchscreen UI for Tracheostomy-Device-UI with demo vitals and buzzer alerts (2 weeks).",
+        "Delivered website enhancements, led software support/debugging, and server setup, management and administration.",
+        "Participated in DRM, MRM and internal audits to comply with medical device standards ISO 13485 and ISO 9001.",
       ],
     }
   ],
   education: [
     {
       school: "Osmania University - Hyderabad",
-      degree: "Bachelor of Science in Computer Science (Minor in Mathematics and Statistics)",
-      dateRange: "2019 - 2023",
-      achievements: [
-        "Graduated with a CGPA of 8.6",
-        "Presented LY Paper at ICAETIS - 2023",
-        "Student Co-ordinator | TPO KJSCE",
-        "Creative Head, Joint Treasurer | IETE KJSCE",
-        "Networking and PR Team Member | Alumini Cell KJSCE"
-      ],
+      degree: "Bachelor of Science in Computer Science",
+      dateRange: "2020 - 2023",
+      achievements: ["Graduated with a CGPA of 8.74, and a 9 SGPA in finals"],
+    },
+    {
+      school: "Jain Heritage A Cambridge School",
+      degree: "12th Standard, C.B.S.E - PCM",
+      dateRange: "2018 - 2020",
+      achievements: [],
+    },
+    {
+      school: "Mansukhbhai Kothari National School",
+      degree: "10th Standard, C.B.S.E",
+      dateRange: "2016 - 2018",
+      achievements: [],
+
+
     },
   ],
 };
