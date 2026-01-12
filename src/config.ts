@@ -19,7 +19,7 @@ export const siteConfig = {
         "Smart gas-spray device on Nordic nRF52: battery-powered design, configurable spray schedules, ADC-based sensing, and BLE remote control for setup and operation.",
       link: "https://github.com/Kushal-Chandar/VeraShield-Firmware",
       skills: ["C", "nRF52832", "Bluetooth", "SPI"],
-      image: "cropped-spray.svg"
+      image: "mosquito.svg"
     },
     {
       name: "VeraShield Mobile App",
@@ -27,7 +27,7 @@ export const siteConfig = {
         "Mobile app for configuring and controlling the VeraShield smart spray dispenser over Bluetooth Low Energy (BLE).",
       link: "https://github.com/Kushal-Chandar/VeraShield-App",
       skills: ["React", "Typescript", "Capacitor", "TailwindCSS"],
-      // image: "cropped-spray.svg"
+      image: "vera_app.svg"
     },
     {
       name: "Scalp Cooling System",
@@ -42,7 +42,7 @@ export const siteConfig = {
       description:
         "Breath analyzer to estimate Ketosis (body fat burn-rate) by measuring acetone levels in breath, Built on Arduino.",
       link: "https://github.com/Kushal-Chandar/Ketone-Breath-Analyzer-POC",
-      skills: ["C","ATMEGA328p", "VOC Sensors", "I2C"],
+      skills: ["C", "ATMEGA328p", "VOC Sensors", "I2C"],
       image: "cropped-keto.svg"
     },
     {
@@ -51,7 +51,7 @@ export const siteConfig = {
         "The Tracheostomy-Device-UI built with Kivy optimized for touch devices, runs on a Raspberry Pi.",
       link: "https://github.com/Kushal-Chandar/Tracheostomy-Device-UI",
       skills: ["Python", "Kivy", "Raspberry Pi"],
-      // image: "cropped-keto.svg"
+      image: "tracheo.svg"
     },
     {
       name: "SmearBot",
@@ -59,7 +59,7 @@ export const siteConfig = {
         "Short, consistent smears with repeatable pressure and speed. Built on Arduino.",
       link: "https://github.com/Kushal-Chandar/Smear",
       skills: ["C", "Nema 17", "DRV8834", "Arduino"],
-      // image: "cropped-keto.svg"
+      image: "smear.svg"
     },
     {
       name: "IVD Laser Based - Strip Reader",
@@ -67,7 +67,7 @@ export const siteConfig = {
         "Motor Interfacing for IVD Laser Based - Strip Reader.",
       link: "https://github.com/Kushal-Chandar/IVD",
       skills: ["C", "Nema 17", "DRV8834", "Arduino"],
-      // image: "cropped-keto.svg"
+      image: "ivd.svg"
     },
   ],
   projects: [
@@ -85,7 +85,7 @@ export const siteConfig = {
         "A template that automates creation of a cpp project.",
       link: "https://github.com/Kushal-Chandar/cmake-init",
       skills: ["C++", "CMAKE", "cpp20", "git"],
-      // image: "cropped-spray.svg"
+      image: "cmake.svg"
     },
     {
       name: "Video-Captionator",
@@ -93,7 +93,7 @@ export const siteConfig = {
         "Make subtitles for your video and save the file as vtt or srt.",
       link: "https://github.com/Kushal-Chandar/Video-Captionator",
       skills: ["vue3", "typescript", "tailwindcss"],
-      // image: "cropped-spray.svg"
+      image: "vid_cap.svg"
     },
     {
       name: "Python Chess Move Validation",
@@ -101,7 +101,7 @@ export const siteConfig = {
         "An objected oriented implementation of move validation in python.",
       link: "https://github.com/Kushal-Chandar/python-chess-move-validation",
       skills: ["python", "Objective-Oriented Programming"],
-      // image: "cropped-spray.svg"
+      image: "chess.svg"
     },
     {
       name: "Covid Vaccination Booking",
@@ -109,7 +109,7 @@ export const siteConfig = {
         "A web application for covid vaccination booking written in Django.",
       link: "https://github.com/Kushal-Chandar/covid_vaccination_booking",
       skills: ["python", "Django"],
-      // image: "cropped-spray.svg"
+      image: "covid.svg"
     },
     {
       name: "Minpass",
@@ -124,15 +124,15 @@ export const siteConfig = {
       description: "An app that translates sign language gestures to text in real time.",
       link: "https://github.com/Kushal-Chandar/Sign-Language-Translator",
       skills: ["Next.js", "React", "PWA", "TailwindCSS", "Python", "Tensorflow"],
-      // image: "cropped-spray.svg"
+      image: "sign.svg"
     }
     ,
     {
       name: "Weather App",
       description: "Weather App fetches data from open-meteo and renders the data in a good looking react interface.",
-      link: "https://github.com/Kushal-Chandar/Sign-Language-Translator",
+      link: "https://github.com/Kushal-Chandar/Weather-App",
       skills: ["Next.js", "React", "PWA", "TailwindCSS"],
-      // image: "cropped-spray.svg"
+      image: "weather.svg"
     }
     ,
     {
@@ -140,7 +140,7 @@ export const siteConfig = {
       description: "\"Physics Accurate\" flappy bird with powerups made in pygame.",
       link: "https://github.com/Kushal-Chandar/flappybird_plus_plus",
       skills: ["Python", "Pygame"],
-      // image: "cropped-spray.svg"
+      image: "flappy.svg"
     }
   ],
   experience: [
