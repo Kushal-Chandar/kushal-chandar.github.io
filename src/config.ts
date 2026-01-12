@@ -12,33 +12,135 @@ export const siteConfig = {
   aboutMe:
     "I build performance-critical software that ships all the way from firmware to UI. I’ve worked across embedded systems (BLE, sensors, motor control on nRF52/STM32) and full-stack products (React + FastAPI + GCP), with a bias for low-latency, reliable systems. Strong at turning messy problems into shipped systems, collaborating across teams, and taking work from concept to deployment. C++ is my happy place, Rust is next, and I spend free time on open source, gaming, and obsessively tuning my system for performance.",
   skills: ["C", "C++", "Python", "Linux", "Git", "Shell", "VSCode", "CMake", "STM32", "nRF52", "Bluetooth", "React", "FastAPI", "GCP", "SQL", "Docker", "Embedded Systems"],
-  projects: [
+  samples: [
+    {
+      name: "VeraShield nRF52 Firmware",
+      description:
+        "Smart gas-spray device on Nordic nRF52: battery-powered design, configurable spray schedules, ADC-based sensing, and BLE remote control for setup and operation.",
+      link: "https://github.com/Kushal-Chandar/VeraShield-Firmware",
+      skills: ["C", "nRF52832", "Bluetooth", "SPI"],
+      image: "cropped-spray.svg"
+    },
+    {
+      name: "VeraShield Mobile App",
+      description:
+        "Mobile app for configuring and controlling the VeraShield smart spray dispenser over Bluetooth Low Energy (BLE).",
+      link: "https://github.com/Kushal-Chandar/VeraShield-App",
+      skills: ["React", "Typescript", "Capacitor", "TailwindCSS"],
+      // image: "cropped-spray.svg"
+    },
     {
       name: "Scalp Cooling System",
       description:
-        "Developed a medical cooling device to reduce chemotherapy-induced hair loss by maintaining scalp temperature and flow control for two patients.",
+        "A medical device used to maintain scalp temperature during chemotherapy to reduce hair loss.",
       link: "https://github.com/Kushal-Chandar/ScalpCoolingDevice",
-      skills: ["STM32", "ADC", "RTOS", "UART"],
-      image: "cropped-cooling_cap.svg",
-      category: "work-sample"
+      skills: ["STM32G030C8", "C", "Python", "ADC", "UART"],
+      image: "cropped-cooling_cap.svg"
     },
     {
       name: "Keto Breath Analyzer",
       description:
-        "Created a portable breath analyzer mapping sensor voltages to CO₂ and acetone levels with real-time OLED display.",
+        "Breath analyzer to estimate Ketosis (body fat burn-rate) by measuring acetone levels in breath, Built on Arduino.",
       link: "https://github.com/Kushal-Chandar/Ketone-Breath-Analyzer-POC",
-      skills: ["ATMEGA328p", "VOC Sensors", "I2C"],
-      image: "cropped-keto.svg",
-      category: "personal-project"
+      skills: ["C","ATMEGA328p", "VOC Sensors", "I2C"],
+      image: "cropped-keto.svg"
     },
     {
-      name: "Smart Spray Scheduler",
+      name: "Tracheostomy Device UI",
       description:
-        "Designed a programmable system for controlled gas spraying with cycle automation and Bluetooth-based remote access.",
-      link: "https://github.com/Kushal-Chandar/VeraShield-App",
-      skills: ["nRF52832", "Bluetooth", "SPI"],
-      image: "cropped-spray.svg"
-
+        "The Tracheostomy-Device-UI built with Kivy optimized for touch devices, runs on a Raspberry Pi.",
+      link: "https://github.com/Kushal-Chandar/Tracheostomy-Device-UI",
+      skills: ["Python", "Kivy", "Raspberry Pi"],
+      // image: "cropped-keto.svg"
+    },
+    {
+      name: "SmearBot",
+      description:
+        "Short, consistent smears with repeatable pressure and speed. Built on Arduino.",
+      link: "https://github.com/Kushal-Chandar/Smear",
+      skills: ["C", "Nema 17", "DRV8834", "Arduino"],
+      // image: "cropped-keto.svg"
+    },
+    {
+      name: "IVD Laser Based - Strip Reader",
+      description:
+        "Motor Interfacing for IVD Laser Based - Strip Reader.",
+      link: "https://github.com/Kushal-Chandar/IVD",
+      skills: ["C", "Nema 17", "DRV8834", "Arduino"],
+      // image: "cropped-keto.svg"
+    },
+  ],
+  projects: [
+    {
+      name: "FTXVibe",
+      description:
+        "A terminal audio visualizer written in C++, comes with a built-in noise + waveform generators.",
+      link: "https://github.com/Kushal-Chandar/FTXVibe",
+      skills: ["C++", "CMAKE", "Miniaudio", "ftxui", "kissfft", "SOLID Design"],
+      // image: "cropped-spray.svg"
+    },
+    {
+      name: "cmake-init",
+      description:
+        "A template that automates creation of a cpp project.",
+      link: "https://github.com/Kushal-Chandar/cmake-init",
+      skills: ["C++", "CMAKE", "cpp20", "git"],
+      // image: "cropped-spray.svg"
+    },
+    {
+      name: "Video-Captionator",
+      description:
+        "Make subtitles for your video and save the file as vtt or srt.",
+      link: "https://github.com/Kushal-Chandar/Video-Captionator",
+      skills: ["vue3", "typescript", "tailwindcss"],
+      // image: "cropped-spray.svg"
+    },
+    {
+      name: "Python Chess Move Validation",
+      description:
+        "An objected oriented implementation of move validation in python.",
+      link: "https://github.com/Kushal-Chandar/python-chess-move-validation",
+      skills: ["python", "Objective-Oriented Programming"],
+      // image: "cropped-spray.svg"
+    },
+    {
+      name: "Covid Vaccination Booking",
+      description:
+        "A web application for covid vaccination booking written in Django.",
+      link: "https://github.com/Kushal-Chandar/covid_vaccination_booking",
+      skills: ["python", "Django"],
+      // image: "cropped-spray.svg"
+    },
+    {
+      name: "Minpass",
+      description: "A self hosted password manager.",
+      link: "https://github.com/Kushal-Chandar/minpass",
+      skills: ["C++", "Docker", "CMAKE", "cryptopp"],
+      // image: "cropped-spray.svg"
+    }
+    ,
+    {
+      name: "Sign Language Translator",
+      description: "An app that translates sign language gestures to text in real time.",
+      link: "https://github.com/Kushal-Chandar/Sign-Language-Translator",
+      skills: ["Next.js", "React", "PWA", "TailwindCSS", "Python", "Tensorflow"],
+      // image: "cropped-spray.svg"
+    }
+    ,
+    {
+      name: "Weather App",
+      description: "Weather App fetches data from open-meteo and renders the data in a good looking react interface.",
+      link: "https://github.com/Kushal-Chandar/Sign-Language-Translator",
+      skills: ["Next.js", "React", "PWA", "TailwindCSS"],
+      // image: "cropped-spray.svg"
+    }
+    ,
+    {
+      name: "FlappyBird++",
+      description: "\"Physics Accurate\" flappy bird with powerups made in pygame.",
+      link: "https://github.com/Kushal-Chandar/flappybird_plus_plus",
+      skills: ["Python", "Pygame"],
+      // image: "cropped-spray.svg"
     }
   ],
   experience: [
