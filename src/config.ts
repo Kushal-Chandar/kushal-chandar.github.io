@@ -19,7 +19,7 @@ export const siteConfig = {
         "Smart gas-spray device on Nordic nRF52: battery-powered design, configurable spray schedules, ADC-based sensing, and BLE remote control for setup and operation.",
       link: "https://github.com/Kushal-Chandar/VeraShield-Firmware",
       skills: ["C", "nRF52832", "Bluetooth", "SPI"],
-      image: "cropped-spray.svg"
+      image: "mosquito.svg"
     },
     {
       name: "VeraShield Mobile App",
@@ -27,7 +27,7 @@ export const siteConfig = {
         "Mobile app for configuring and controlling the VeraShield smart spray dispenser over Bluetooth Low Energy (BLE).",
       link: "https://github.com/Kushal-Chandar/VeraShield-App",
       skills: ["React", "Typescript", "Capacitor", "TailwindCSS"],
-      // image: "cropped-spray.svg"
+      image: "mosquito.svg"
     },
     {
       name: "Scalp Cooling System",
@@ -42,7 +42,7 @@ export const siteConfig = {
       description:
         "Breath analyzer to estimate Ketosis (body fat burn-rate) by measuring acetone levels in breath, Built on Arduino.",
       link: "https://github.com/Kushal-Chandar/Ketone-Breath-Analyzer-POC",
-      skills: ["C","ATMEGA328p", "VOC Sensors", "I2C"],
+      skills: ["C", "ATMEGA328p", "VOC Sensors", "I2C"],
       image: "cropped-keto.svg"
     },
     {
@@ -51,7 +51,7 @@ export const siteConfig = {
         "The Tracheostomy-Device-UI built with Kivy optimized for touch devices, runs on a Raspberry Pi.",
       link: "https://github.com/Kushal-Chandar/Tracheostomy-Device-UI",
       skills: ["Python", "Kivy", "Raspberry Pi"],
-      // image: "cropped-keto.svg"
+      image: "tracheo.svg"
     },
     {
       name: "SmearBot",
@@ -85,7 +85,7 @@ export const siteConfig = {
         "A template that automates creation of a cpp project.",
       link: "https://github.com/Kushal-Chandar/cmake-init",
       skills: ["C++", "CMAKE", "cpp20", "git"],
-      // image: "cropped-spray.svg"
+      image: "cmake.svg"
     },
     {
       name: "Video-Captionator",
