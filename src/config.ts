@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Kushal Chandar",
-  title: " Embedded Engineer",
+  title: " Embedded Systems Engineer and Full Stack Developer",
   description: "Kushal Chandar - Portfolio",
   accentColor: "#1B9AAA",
   social: {
@@ -27,7 +27,7 @@ export const siteConfig = {
         "Mobile app for configuring and controlling the VeraShield smart spray dispenser over Bluetooth Low Energy (BLE).",
       link: "https://github.com/Kushal-Chandar/VeraShield-App",
       skills: ["React", "Typescript", "Capacitor", "TailwindCSS"],
-      image: "mosquito.svg"
+      image: "vera_app.svg"
     },
     {
       name: "Scalp Cooling System",
@@ -36,6 +36,14 @@ export const siteConfig = {
       link: "https://github.com/Kushal-Chandar/ScalpCoolingDevice",
       skills: ["STM32G030C8", "C", "Python", "ADC", "UART"],
       image: "cropped-cooling_cap.svg"
+    },
+    {
+      name: "SmearBot",
+      description:
+        "Short, consistent smears with repeatable pressure and speed. Built on Arduino.",
+      link: "https://github.com/Kushal-Chandar/Smear",
+      skills: ["C", "Nema 17", "DRV8834", "Arduino"],
+      image: "smear.svg"
     },
     {
       name: "Keto Breath Analyzer",
@@ -54,29 +62,42 @@ export const siteConfig = {
       image: "tracheo.svg"
     },
     {
-      name: "SmearBot",
-      description:
-        "Short, consistent smears with repeatable pressure and speed. Built on Arduino.",
-      link: "https://github.com/Kushal-Chandar/Smear",
-      skills: ["C", "Nema 17", "DRV8834", "Arduino"],
-      // image: "cropped-keto.svg"
-    },
-    {
       name: "IVD Laser Based - Strip Reader",
       description:
         "Motor Interfacing for IVD Laser Based - Strip Reader.",
       link: "https://github.com/Kushal-Chandar/IVD",
       skills: ["C", "Nema 17", "DRV8834", "Arduino"],
-      // image: "cropped-keto.svg"
+      image: "ivd.svg"
     },
   ],
   projects: [
+    {
+      name: "Sign Language Translator",
+      description: "An app that translates sign language gestures to text in real time.",
+      link: "https://github.com/Kushal-Chandar/Sign-Language-Translator",
+      skills: ["Next.js", "React", "PWA", "TailwindCSS", "Python", "Tensorflow"],
+      image: "sign.svg"
+    },
+    {
+      name: "FlappyBird++",
+      description: "\"Physics Accurate\" flappy bird with powerups made in pygame.",
+      link: "https://github.com/Kushal-Chandar/flappybird_plus_plus",
+      skills: ["Python", "Pygame"],
+      image: "flappy.svg"
+    },
     {
       name: "FTXVibe",
       description:
         "A terminal audio visualizer written in C++, comes with a built-in noise + waveform generators.",
       link: "https://github.com/Kushal-Chandar/FTXVibe",
       skills: ["C++", "CMAKE", "Miniaudio", "ftxui", "kissfft", "SOLID Design"],
+      // image: "cropped-spray.svg"
+    },
+    {
+      name: "Minpass",
+      description: "A self hosted password manager.",
+      link: "https://github.com/Kushal-Chandar/minpass",
+      skills: ["C++", "Docker", "CMAKE", "cryptopp"],
       // image: "cropped-spray.svg"
     },
     {
@@ -93,7 +114,7 @@ export const siteConfig = {
         "Make subtitles for your video and save the file as vtt or srt.",
       link: "https://github.com/Kushal-Chandar/Video-Captionator",
       skills: ["vue3", "typescript", "tailwindcss"],
-      // image: "cropped-spray.svg"
+      image: "vid_cap.svg"
     },
     {
       name: "Python Chess Move Validation",
@@ -101,7 +122,7 @@ export const siteConfig = {
         "An objected oriented implementation of move validation in python.",
       link: "https://github.com/Kushal-Chandar/python-chess-move-validation",
       skills: ["python", "Objective-Oriented Programming"],
-      // image: "cropped-spray.svg"
+      image: "chess.svg"
     },
     {
       name: "Covid Vaccination Booking",
@@ -109,39 +130,15 @@ export const siteConfig = {
         "A web application for covid vaccination booking written in Django.",
       link: "https://github.com/Kushal-Chandar/covid_vaccination_booking",
       skills: ["python", "Django"],
-      // image: "cropped-spray.svg"
+      image: "covid.svg"
     },
-    {
-      name: "Minpass",
-      description: "A self hosted password manager.",
-      link: "https://github.com/Kushal-Chandar/minpass",
-      skills: ["C++", "Docker", "CMAKE", "cryptopp"],
-      // image: "cropped-spray.svg"
-    }
-    ,
-    {
-      name: "Sign Language Translator",
-      description: "An app that translates sign language gestures to text in real time.",
-      link: "https://github.com/Kushal-Chandar/Sign-Language-Translator",
-      skills: ["Next.js", "React", "PWA", "TailwindCSS", "Python", "Tensorflow"],
-      // image: "cropped-spray.svg"
-    }
-    ,
     {
       name: "Weather App",
       description: "Weather App fetches data from open-meteo and renders the data in a good looking react interface.",
-      link: "https://github.com/Kushal-Chandar/Sign-Language-Translator",
+      link: "https://github.com/Kushal-Chandar/Weather-App",
       skills: ["Next.js", "React", "PWA", "TailwindCSS"],
-      // image: "cropped-spray.svg"
-    }
-    ,
-    {
-      name: "FlappyBird++",
-      description: "\"Physics Accurate\" flappy bird with powerups made in pygame.",
-      link: "https://github.com/Kushal-Chandar/flappybird_plus_plus",
-      skills: ["Python", "Pygame"],
-      // image: "cropped-spray.svg"
-    }
+      image: "weather.svg"
+    },
   ],
   experience: [
     {
