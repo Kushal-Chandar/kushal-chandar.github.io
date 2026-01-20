@@ -69,6 +69,22 @@ export const siteConfig = {
       skills: ["C", "Nema 17", "DRV8834", "Arduino"],
       image: "ivd.svg"
     },
+    {
+      name: "Pepallelebiologics",
+      description:
+        "Website for pepallelebiologics biotech.",
+      link: "https://pepallelebiologics.com/",
+      skills: ["React", "Vite", "Javascript", "TailwindCSS", "Google Sheets API"],
+      image: "pepallele.svg"
+    },
+    {
+      name: "",
+      description:
+        "Website for advionyx.",
+      link: "https://advionyx.com/",
+      skills: ["React", "Vite", "Javascript", "TailwindCSS"],
+      image: "advionyx.svg"
+    },
   ],
   projects: [
     {
